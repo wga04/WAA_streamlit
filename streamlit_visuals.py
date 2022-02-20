@@ -8,7 +8,7 @@ from PIL import Image
 
 # Interactive features to the visualization: 1) page selection. 2) in last page called interactive chosing the rank of the university where the graph changes accordingly
 st.set_page_config(layout="wide")
-
+st.balloons()
 logo = "https://raw.githubusercontent.com/wga04/WAA_streamlit/main/LOGO.jpg"
 st.image(logo, width=150)
 
